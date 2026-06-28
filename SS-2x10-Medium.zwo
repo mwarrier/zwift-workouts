@@ -1,0 +1,21 @@
+<workout_file>
+  <author>Mahesh Warrier</author>
+  <name>Sweet Spot - 2x10 - Medium</name>
+  <description/>
+  <sportType>bike</sportType>
+  <durationType>time</durationType>
+  <tags/>
+  <workout>
+    <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="0">
+      <textevent timeoffset="270" message="warmup is done, now time for some primers!"/>
+    </Warmup>
+    <IntervalsT Repeat="3" OnDuration="20" OffDuration="40" OnPower="1" OffPower="0.5" pace="0"/>
+    <SteadyState Duration="180" Power="0.5" pace="0">
+      <textevent timeoffset="0" message="for the main set, we are doing 2 reps of sweet spot"/>
+      <textevent timeoffset="0" message="each rep is 10 minutes at 90% ftp, with a 3 minute recovery at 50% ftp"/>
+      <textevent timeoffset="105" message="let's start the main set. good luck!"/>
+    </SteadyState>
+    <IntervalsT Repeat="2" OnDuration="600" OffDuration="180" OnPower="0.9" OffPower="0.5" pace="0"/>
+    <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" pace="0"/>
+  </workout>
+</workout_file>
